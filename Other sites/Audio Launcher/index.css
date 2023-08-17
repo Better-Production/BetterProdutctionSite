@@ -5,7 +5,8 @@
     font-weight: bolder;
     
 }
-p1{
+
+.hb{
     display:flex;
     background: url(images/Header\ Background.png);
     background-size:cover;
