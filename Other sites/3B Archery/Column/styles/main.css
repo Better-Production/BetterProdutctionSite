@@ -1,0 +1,122 @@
+body{
+		margin: 0;
+		background-image: url("");
+}
+header	{
+	background-image: url("black camo.png");
+	color: white;
+	padding: 15px 15px 0 15px;
+
+}
+header video{}
+.logo1{
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+}
+.fantasy{
+	font-family: 1em fantasy;
+	font-size: 50px
+}
+.test{
+	position: ;
+}
+header h2{
+	margin: 0px 0px 25px 25px;
+	display: inline;
+
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;	
+}
+nav ul li a{
+	color: white;
+	padding: 5px 15px;
+
+}
+.row{
+	
+
+}
+
+.col{
+	background: #333;
+	border-radius: 5px;
+	padding: 5% .5%;
+	color: white;
+	float: left;
+	margin: .5%;
+	width: 31%;
+}
+div{
+	background-image: url("black camo.png");
+	background-color: #cccccc;
+}
+div a{
+	color: white;
+	padding: 0%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  }
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+.video{
+	margin: 25px 10px 0px 25px;
+}
+
+.table{
+	padding-left: 100%;
+}

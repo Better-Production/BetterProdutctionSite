@@ -1,0 +1,149 @@
+.wuc{
+    color: rgb(170, 4, 4);
+    margin-left: 24%;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+p1{
+    display:flex;
+    background: url(images/Header\ Background.png);
+    background-size:cover;
+    padding-top: .25%;
+}
+h2{
+    padding-top: 3.25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+sub1{
+    margin: 0px;
+    color: #00ca4e;
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    align-items: Left;
+    text-align: left;
+    flex-direction: column;
+}
+
+sub2{
+    margin: 0px;
+    color:rgb(143, 143, 143);
+    font-size: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    align-items:normal;
+    text-align: left;
+    flex-direction: column;
+}
+
+.HeaderLogo{
+    cursor: pointer;
+    cursor: hand;
+    padding: 5%;
+    margin:01%;
+    width: 2px;
+    height: 2px;
+    text-align:left;
+    top: 8px;
+    left:px;
+    position: left;
+    border:5px rgb(151, 4, 4);
+    border-radius: 4px;
+    transition-duration:.60s;
+    background: url(Images/App\ Icon.jpg);
+    background-size: cover;
+}
+
+.HeaderText{
+    color: #68ad1e;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    align-items: center;
+    
+}
+.LaunchButtons{
+    padding: 20px;
+    Margin-right: 20%;
+    
+}
+
+.LaunchButtons2{
+    padding: 20px;
+    Margin-right: 20%;
+    margin-top: -51px;
+    
+}
+.background{
+    background-image: url(Images/Background3.jpg);
+    Background-size: cover;
+}
+.SongTitle{
+    Color:rgb(255, 0, 0);
+}
+.Player{
+    cursor: pointer;
+    cursor: hand;
+    padding: 08%;
+    margin:0%;
+    width: 1px;
+    height: 1px;
+    text-align:left;
+    top: 8px;
+    left:1px;
+    position: left;
+    border:5px rgb(1511, 4, 4);
+    border-radius: 3px;
+    box-shadow: rgb(0, 0, 0);
+    transition-duration:.60s;
+    background: url(Images/image.jpg);
+    background-size: cover; 
+}
+
+.Player:hover{
+    
+    transition: 0.5s;
+    background-size: cover; 
+}
+
+.settingsimage{
+    cursor: pointer;
+    cursor: hand;
+    left: 1px;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    left:1px;
+    position: left;
+    align-items: center;
+    border: transparent;
+    border-radius: 3px;
+    transition-duration:.60s;
+    background: url(Images/Gear.png);
+    background-size: cover;
+}
+
+.clearview{
+    color: antiquewhite;
+}
+.opensource{
+    cursor: pointer;
+    cursor: hand;
+    padding: 5%;
+    margin:01%;
+    width: 2px;
+    height: 2px;
+    text-align:left;
+    top: 8px;
+    left:px;
+    position: left;
+    border:5px rgb(151, 4, 4);
+    border-radius: 4px;
+    transition-duration:.60s;
+    background: url(Images/File.png);
+    background-size: cover;
+
+}
+
+
