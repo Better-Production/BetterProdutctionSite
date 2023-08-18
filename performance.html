@@ -4,14 +4,39 @@
   <head>
     <meta charset='UTF-8'>
     <title>Better Production AVD</title>
-    <h2><input class="logo" onclick="document.location='index.html'"></h2>
+    <h2 class="pb1"><input class="logo" onclick="document.location='index.html'"></h2>
 
   </head>
   <body>
     <h1 class="home">
-        <p class="text">Performance Coming Soon</p>
-        <button class="return" onclick="document.location='index.html'"><p class="rtext">Return to home</p></button>
+      <p class="nm"><p class="ptoo">Performance</p></p>
+        <p class="pthree">Sound and lighting is vital for live events. Our team can bring you peace of mine when hosting your event. For the past seven years the Better Production team has worked in an array of live production scenes. We have worked along side churches, K-12 schools, colleges, News outlets, City events, etc. The list goes on and on, and what we have learned is that no 2 events are the same. Having the knowledge and technology to make your event perfect is key. We will work with your event planner and their team to make sure your needs are met, so that you will need to worry less.</p>
     </h1>
+    <img class="lone" src="Style/gold line break.png">
+
+      <p class="pthree">For more information and to setup a sit down meeting please leave your name, email, and a breif message explaining your live event.</p>
+
+    <form id="contact_form" action="https://formsubmit.co/betterproduction@outlook.com" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <label class="required" for="name">Your name:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="email">Your email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+      </div>
+        
+        <input id="submit_button" type="submit" value="Send email" />
+    </form>
+
+    
   </body>
   <footer class="index">
     <input class="logo2" onclick="document.location='index.html'">
