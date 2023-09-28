@@ -5,6 +5,7 @@
 .tn{
   margin-top: 0%;
   margin-bottom: -7.5%;
+  margin-right: -100px;
   text-align: right;
 }
 
@@ -24,6 +25,7 @@
 h2{
   min-height: 100%;
   min-width: 100%;
+  background: url(Live\ Event\ icon.jpg);
   background-size: cover;
   transition-delay: -5ms;
   margin: 0;
@@ -33,7 +35,7 @@ h2{
 .logo{
   cursor: pointer;
   cursor: hand;
-  margin-left: 34%;
+  margin-left: 38%;
   width: 300px;
   height: 300px;
   border:5px rgb(151, 4, 4);
@@ -107,15 +109,15 @@ body{
   position: relative;
   width: 1200px;
   height: 300px;
-  margin-left: 1%;
-  margin-top: 5px;
+  margin-left: 6%;
+  margin-top: 20px;
 }
 
 .box1{
   cursor:pointer;
   cursor:hand;
   position: relative;
-  width: calc(300px - 20px);
+  width: calc(400px - 40px);
   height: calc(200px - 20px);
   background: url(Live\ Event\ icon.jpg);
   background-size: cover;
@@ -167,7 +169,7 @@ body{
   cursor:pointer;
   cursor:hand;
   position: relative;
-  width: calc(300px - 20px);
+  width: calc(400px - 40px);
   height: calc(200px - 20px);
   background: url(Videography\ icon.jpg);
   background-size: cover;
@@ -218,7 +220,7 @@ body{
   cursor:pointer;
   cursor:hand;
   position: relative;
-  width: calc(300px - 20px);
+  width: calc(400px - 40px);
   height: calc(200px - 20px);
   background: url(Photography\ icon.jpg);
   background-size: cover;
@@ -268,8 +270,8 @@ body{
 
 /* Line Breaks */
 .lone{
-  margin-top: 20px;
-  margin-left: 13%;
+  margin-top: -50px;
+  margin-left: 27%;
   height:150px;
   width: 600px;
 }
@@ -283,10 +285,10 @@ body{
 
 .pone{
   margin-left: 40px;
-  margin-right: 400px;
+  margin-right: 450px;
   color: rgb(255, 255, 255);
   float: left;
-  font-size: 20px;
+  font-size: 25px;
   font-family: sans-serif;
 }
 
@@ -294,12 +296,12 @@ body{
   cursor:pointer;
   cursor:hand;
   position: relative;
-  margin-top: -250px;
+  margin-top: -230px;
   margin-right: 40px;
   background: url(development\ icon.jpg);
   background-size: cover;
   float: right;
-  width: calc(300px - 20px);
+  width: calc(400px - 40px);
   height: calc(200px - 20px);
   box-sizing: border-box;
   overflow: hidden;
@@ -330,7 +332,7 @@ body{
   position: absolute;
   top: 0px;
   left: 50%;
-  margin-top: 30%;
+  margin-top: 20%;
   transform: translate(-50%,50%);
   font-family: sans-serif;
   font-size: 60px;
@@ -340,7 +342,7 @@ body{
 }
 
 .box4:hover .aone .wordt{
-  margin-top: 20%;
+  margin-top: 16%;
   font-size: large;
 }
 
@@ -352,12 +354,12 @@ body{
 }
 
 .ptwo{
-  margin-top: -200px;
-  margin-left: 400px;
+  margin-top: -190px;
+  margin-left: 450px;
   margin-right: 40px;
   color: rgb(255, 255, 255);
   float: right;
-  font-size: 20px;
+  font-size: 30px;
   font-family: sans-serif;
 }
 
@@ -371,7 +373,7 @@ body{
   background: url(studio\ icon.jpg);
   background-size: cover;
   float: left;
-  width: calc(300px - 20px);
+  width: calc(400px - 40px);
   height: calc(200px - 20px);
   box-sizing: border-box;
   overflow: hidden;
@@ -402,7 +404,7 @@ body{
   position: absolute;
   top: 0px;
   left: 50%;
-  margin-top: 30%;
+  margin-top: 20%;
   transform: translate(-50%,50%);
   font-family: sans-serif;
   font-size: 60px;
@@ -412,7 +414,7 @@ body{
 }
 
 .box5:hover .aone .word3{
-  margin-top: 12%;
+  margin-top: 17%;
   font-size: large;
 }
 
