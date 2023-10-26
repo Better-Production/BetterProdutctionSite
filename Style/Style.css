@@ -100,9 +100,15 @@ body{
   background-size: fill;
   opacity: 75%;
 }
+
+.home{
+  margin-top: -100px;
+}
+
 .nn{
   align-items: center;
 }
+
 .ptto{
 margin-left: 570px;
 margin-right: 30px;
@@ -143,6 +149,44 @@ text-decoration: underline;
   opacity: 1;
 }
 
+.fix{
+  margin-bottom: -20px;
+  margin-top: -20px;
+  width: 1200px;
+  height: 300px;
+}
+
+.spco{
+  margin-top: -100px;
+  margin-bottom: -60px;
+  margin-left: 100px;
+  width: calc(390px - 39px);
+  height: calc(200px - 20px);
+  text-align: center;
+  font-size: x-large;
+  color: white;
+}
+
+.spct{
+  margin-top: -255px;
+  margin-left: 500px;
+  width: calc(390px - 39px);
+  height: calc(200px - 20px);
+  text-align: center;
+  font-size: x-large;
+  color: white;
+}
+
+.spch{
+  margin-top: -265px;
+  margin-left: 890px;
+  width: calc(390px - 39px);
+  height: calc(200px - 20px);
+  text-align: center;
+  font-size: x-large;
+  color: white;
+}
+
 /*Potfolio Window*/
 .return:hover{
   background-color:#5a3e68;
@@ -154,6 +198,7 @@ text-decoration: underline;
   height: 300px;
   margin-left: 6%;
   margin-top: 20px;
+  margin-bottom: -50px;
 }
 
 .ibox1{
@@ -225,6 +270,7 @@ text-decoration: underline;
   height: 300px;
   margin-left: 6%;
   margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .box1{
@@ -232,7 +278,7 @@ text-decoration: underline;
   cursor:hand;
   position: relative;
   width: calc(400px - 40px);
-  height: calc(200px - 20px);
+  height: calc(300px - 30px);
   background: url(Live\ Event\ icon.jpg);
   background-size: cover;
   float: left;
@@ -284,7 +330,7 @@ text-decoration: underline;
   cursor:hand;
   position: relative;
   width: calc(400px - 40px);
-  height: calc(200px - 20px);
+  height: calc(300px - 30px);
   background: url(Videography\ icon.jpg);
   background-size: cover;
   float: left;
@@ -335,7 +381,7 @@ text-decoration: underline;
   cursor:hand;
   position: relative;
   width: calc(400px - 40px);
-  height: calc(200px - 20px);
+  height: calc(300px - 30px);
   background: url(Photography\ icon.jpg);
   background-size: cover;
   float: left;
@@ -386,9 +432,25 @@ text-decoration: underline;
 .lone{
   margin-top: -50px;
   margin-left: 27%;
+  margin-bottom: -20px;
   height:150px;
   width: 600px;
 }
+
+.brk{
+  height: 300px;
+  width: 150px;
+  margin-top: -165px;
+  margin-left: 395px;
+}
+
+.brek{
+  height: 300px;
+  width: 150px;
+  margin-top: -255px;
+  margin-left: 790px;
+}
+
 
 /* Sub 2 */
 .sub2{
