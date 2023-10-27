@@ -686,3 +686,26 @@ input[type=submit] {
   margin-left: 610px;
   box-shadow: 5px 5px 5px #3e4444;
 }
+
+
+/*404 PAGE*/
+.tetx{
+  margin-top: 120px;
+  color: white;
+  font-size: larger;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.rtrn{
+  cursor: pointer;
+  background-color: #6c0e97;
+  margin-left: 44%;
+  width: 120px;
+  height: 80px;
+  transition: 0.5s;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  
+}
