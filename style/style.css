@@ -1,22 +1,41 @@
+body{
+    background-color: rgb(95, 94, 94);
+}
+
+/*Main*/
 .body{
     background-image: url(images/headBack.png);
     background-size: cover;
     margin-left: -1%;
     margin-top: -1.25%;
     width: 101%;
-    height: 100%;
+    height: 94%;
+    box-shadow: 0px 8px 16px 0px rgba(10,10,10,10);
 }
 
 .logo1{
     margin-top: 8%;
+    width: 35%;
+    height: 35%;
+}
+
+.shad{
+    margin-top: -10%;
     width: 30%;
-    height: 30%;
+    height: 6%;
 }
 
 .treysabitch{
     margin-top: -4%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
+    font-size: 150%;
 
+}
+
+
+/*Section 1*/
+.vid{
+    margin-left: 2%;
 }
 
 
@@ -30,7 +49,8 @@
     height: 50px;
     margin-left: -1%;
     background-color: rgb(143, 143, 143);
-    margin-top: -1.1%;
+ 
+    position: fixed;
 }
 
 .dropbtn {
