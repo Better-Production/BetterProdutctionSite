@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+  <link rel="stylesheet" type="text/css" href="Style/Style.css">
+  <head>
+    <meta charset='UTF-8'>
+    <title>Better Production AVD</title>
+    <h2><input class="logo" onclick="document.location='index.html'"></h2>
+  <style>
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .title{
+        font-size: 220px;
+        margin-top: -52px;
+        color: #c5ce45;
+        
+
+    }
+
+    .volume-container {
+      display: flex;
+      margin-left: 111px;
+      margin-top: 170px;
+    }
+
+    .volume-slider {
+      width: 20px;
+      height: 150px;
+      background-color: #ddd;
+      cursor: grab;
+      user-select: none;
+      border-radius: 5px;
+      margin-right: 20px;
+      transform: rotate(0deg);
+    }
+
+    .volume-fill {
+      height: 50%;
+      background-color: #8c01a8;
+      border-radius: 5px;
+      transform: rotate(180deg);
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .button {
+      width: 70px;
+      height: 70px;
+      margin-top: 5px;
+      margin-right: 5px;
+      background-color: #8c01a8;
+      cursor: pointer;
+      border-radius: 10px;
+  
+    }
+
+    .bom{
+      background-color: rgba(255, 255, 255, 0.089);
+      height: 500px;
+      width: 500px;
+      align-items: center;
+      border-radius: 250px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="top">
+<div class="bom">
+<div class="volume-container">
+  <div class="volume-slider" id="volumeSlider1">
+    <div class="volume-fill" id="volumeFill1"></div>
+  </div>
+
+  <div class="volume-slider" id="volumeSlider2">
+    <div class="volume-fill" id="volumeFill2"></div>
+  </div>
+
+  <div class="volume-slider" id="volumeSlider3">
+    <div class="volume-fill" id="volumeFill3"></div>
+  </div>
+
+<div>
+  <button class="button" id="button1" onclick="buttonClick('Button 1')"></button>
+  <button class="button" id="button2" onclick="buttonClick('Button 2')"></button>
+  <br>
+  <button class="button" id="button3" onclick="buttonClick('Button 3')"></button>
+  <button class="button" id="button4" onclick="buttonClick('Button 4')"></button>
+</div>
+
+<div class="volume-container">
+    <P class="title"></P>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const volumeSliders = [
+      { slider: document.getElementById("volumeSlider1"), fill: document.getElementById("volumeFill1"), isDragging: false },
+      { slider: document.getElementById("volumeSlider2"), fill: document.getElementById("volumeFill2"), isDragging: false },
+      { slider: document.getElementById("volumeSlider3"), fill: document.getElementById("volumeFill3"), isDragging: false },
+    ];
+
+    volumeSliders.forEach((sliderObj) => {
+      sliderObj.slider.addEventListener("mousedown", (e) => startDragging(e, sliderObj));
+    });
+
+    document.addEventListener("mouseup", stopDragging);
+    document.addEventListener("mousemove", drag);
+
+    function startDragging(e, sliderObj) {
+      e.preventDefault();
+      sliderObj.isDragging = true;
+    }
+
+    function stopDragging() {
+      volumeSliders.forEach((sliderObj) => {
+        sliderObj.isDragging = false;
+      });
+    }
+
+    function drag(e) {
+      volumeSliders.forEach((sliderObj) => {
+        handleDrag(e, sliderObj);
+      });
+    }
+
+    function handleDrag(e, sliderObj) {
+      if (!sliderObj.isDragging) return;
+
+      const rect = sliderObj.slider.getBoundingClientRect();
+      let offsetY = e.clientY - rect.top;
+      offsetY = Math.max(0, Math.min(offsetY, rect.height));
+
+      const percentage = 100 - (offsetY / rect.height) * 100;
+      sliderObj.fill.style.height = `${percentage}%`;
+    }
+  });
+  
+</script>
+
+</body>
+<footer class="index">
+  <input class="logo2" onclick="document.location='index.html'">
+  <a class="footerl" href="performance.html">Performance</a>
+  <a class="footerl" href="videography.html">Videography</a>
+  <a class="footerl" href="photography.html">Photography</a>
+  <a class="footerl" href="Development.html">Development</a>
+  <a class="footerl" href="audio.html">Audio</a>
+  <a class="footerl" href="contact.html">Contact</a>
+  <a class="footerl" href="about.html">About</a>
+
+</footer>  
+</html>
